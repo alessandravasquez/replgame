@@ -3,7 +3,7 @@ design = "*"*(40)
 puts design
 puts "Welcome to OS Hikes _________$$
  _________________________$$$$
- _______________________$$$$$$
+ _______________________$$$$$$$$
  ______________________$$$$$$
  ______________________$$$$
  ______________________$$
@@ -28,7 +28,7 @@ puts "Welcome to OS Hikes _________$$
 puts design
 puts "Where would you like to hike?"
 puts "Locations: mavericks, yosemite, sierra"
-option = gets.chomp.downcase 
+option = gets.chomp.downcase
 case option
 when "mavericks"
     puts "You see 50 ft waves!"
